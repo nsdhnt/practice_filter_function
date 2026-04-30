@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  border: solid 1px tomato;
+  h1{
+    font-size: 2.6rem;
+  }
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  .searchWindow{
+    display: grid;
+    grid-template-rows: 40px 300px 40px;
+    width: 60%;
+    border-radius: 10px;
+    border: solid 1px tomato;
+  }
+}
